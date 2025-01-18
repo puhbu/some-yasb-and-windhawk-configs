@@ -38,7 +38,6 @@ bars:
       right:
         [
           "media",
-          "taskbar",
           "weather",
           "volume",
           "power_menu"
@@ -69,7 +68,7 @@ widgets:
     options:
       label: "{win[title]}"
       label_alt: "[class_name='{win[class_name]}' exe='{win[process][name]}' hwnd={win[hwnd]}]"
-      label_no_window: ""
+      label_no_window: ":3"
       label_icon: true
       label_icon_size: 14
       max_length: 56
