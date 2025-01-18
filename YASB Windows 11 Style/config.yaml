@@ -77,9 +77,9 @@ widgets:
   clock:
     type: "yasb.clock.ClockWidget"
     options:
-      label: "{%a %d, %b %H:%M}"
-      label_alt: "{%A %d %B %Y, %H:%M}"
-      #locale: 'en_EN' # Langugae for date, you can set your own, example fr_FR
+      label: "{%a %d, %b %I:%M %p}"
+      label_alt: "{%A %d %B %Y, %I:%M %p}"
+      locale: 'en_EN'
       timezones: [] #Looking up time zone info from registry
       #timezones: ["America/Montreal"]
   weather:
