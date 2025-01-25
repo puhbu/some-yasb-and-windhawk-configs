@@ -49,13 +49,13 @@ widgets:
       label: "{title}"
       label_alt: "{artist}"
       max_field_size:
-        label: 35
-        label_alt: 35
+        label: 50
+        label_alt: 50
       show_thumbnail: false
       controls_only: false
       controls_left: true
       hide_empty: true
-      thumbnail_alpha: 0
+      thumbnail_alpha: 255
       thumbnail_padding: 8
       thumbnail_corner_radius: 20 # Set to 0 for square corners
       icons:
